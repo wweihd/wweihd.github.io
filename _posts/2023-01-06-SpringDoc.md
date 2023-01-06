@@ -19,7 +19,7 @@ tags:
 
 ## 正文
 
-### 集成
+### SpringBoot集成
 
 pom文件
 
@@ -131,17 +131,17 @@ springdoc:
 
 常用Swagger注解对照
 
-| SpringFox                              | SpringDoc                                               |
-| -------------------------------------- | ------------------------------------------------------- |
-| @Api                                   | @Tag                                                    |
-| @ApiIgnore                             | @Parameter(hidden=true)/@Operation(hidden=true)/@Hidden |
-| @ApiImplicitParameter                  | @Parameter                                              |
-| @ApiImplicitParameters                 | @Parameters                                             |
-| @ApiModel                              | @Schema                                                 |
-| @ApiModelProperty                      | @Schema                                                 |
-| @ApiOperation(value="foo",notes="bar") | @Operation(summary="foo",description="bar")             |
-| @ApiParameter                          | @Parameter                                              |
-| @ApiResponse(code="404",message="foo") | @ApiResponse(responseCode="404",message="foo")          |
+| SpringFox              | SpringDoc                                                    |
+| ---------------------- | ------------------------------------------------------------ |
+| @Api                   | @Tag                                                         |
+| @ApiIgnore             | @Parameter(hidden=true)<br>@Operation(hidden=true)<br>@Hidden |
+| @ApiImplicitParameter  | @Parameter                                                   |
+| @ApiImplicitParameters | @Parameters                                                  |
+| @ApiModel              | @Schema                                                      |
+| @ApiModelProperty      | @Schema                                                      |
+| @ApiOperation          | @Operation                                                   |
+| @ApiParameter          | @Parameter                                                   |
+| @ApiResponse           | @ApiResponse                                                 |
 
 示例
 
