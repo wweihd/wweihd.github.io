@@ -109,7 +109,7 @@ OOS可完美支持复杂的 PPT 与 Excel。同时能保留 office 文档的动�
 6. 验证服务是否可用
 
    ```
-   访问 docs.exmple.com/hosting 显示一个XML文档，即为配置成功。
+   访问 docs.exmple.com/hosting/discovery 显示一个XML文档，即为配置成功。
    访问 docs.exmple.com/op/generate.aspx 即可使用。
    ```
 
