@@ -123,7 +123,7 @@ public class LombokPlugin extends PluginAdapter {
     public boolean modelSetterMethodGenerated(Method method, TopLevelClass topLevelClass,
                                               IntrospectedColumn introspectedColumn,
                                               IntrospectedTable introspectedTable, ModelClassType modelClassType) {
-        // no getter
+        // no setter
         return false;
     }
 
@@ -131,7 +131,7 @@ public class LombokPlugin extends PluginAdapter {
     public boolean modelGetterMethodGenerated(Method method, TopLevelClass topLevelClass,
                                               IntrospectedColumn introspectedColumn,
                                               IntrospectedTable introspectedTable, ModelClassType modelClassType) {
-        // no setter
+        // no getter
         return false;
     }
 
